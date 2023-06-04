@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import './App.css';
-import Question1 from './question1';
-import Question2 from './question2';
+import Question1 from './q1v2';
+import Question2 from './q2v2';
 
 //Setup to allow for one question per page changed by a button.
 const Component1 = () => (

@@ -39,6 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Update June 4
+
+1. Pull updated code.
+2. Use command `npm ci` for a clean install.
+3. Then use `npm start` to run the code.
+
+### Outstanding issues
+The functionality of the code has been changed but there is a formatting issue that I have not been able to solve. The highlight and comment appear in the correct spot but they appear behind the default picture. I have been stuck here for a while so I will submit this as is.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

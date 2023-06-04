@@ -24,6 +24,14 @@
   color: white;
 }
 
+.Img-overlay-header {
+  /* min-height: 100vh; */
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Img-overlay {
   position: relative;
   top: -975px;
@@ -31,23 +39,59 @@
  
 }
 
+.Img-all {
+  position: relative;
+  top: -975px;
+  right: 0px;  
+}
+
 .Img-overlayAb {
   position: relative;
   top: -975px;
-  right: -410px;
+  right: 0px;  
+  /* -410 */
  
 }
 
 .Img-overlayAc {
   position: relative;
-  top: -975px;
-  right: 415px;
+  top: -990px;
+  right: 0px;
+  /* 415 */
 }
 
 
 .Img-background {
   width: 100%;
   position: relative;
+}
+
+.image-overlay {
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  /* width: 100%; */ 
+  transition: .5s ease;
+  /* z-index: 1; */
+  position: absolute;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .Btn-style {
